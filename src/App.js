@@ -6,6 +6,7 @@ import About from './Pages/About/About';
 import Login from './Pages/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
 import Contact from './Pages/ContactUs/Contact';
+import Footer from './Pages/Shared/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
