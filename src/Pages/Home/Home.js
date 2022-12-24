@@ -1,10 +1,18 @@
 import React from 'react';
-import Navbar from '../Shared/Navbar';
+import AppointmentBanner from './AppointmentBanner/AppointmentBanner';
+import Banner from './Banner/Banner';
+import Info from './Info/Info';
+import Services from './Services/Services';
+import ServicesBanner from './ServicesBanner/ServicesBanner';
 
 const Home = () => {
     return (
         <div>
-           <h1>This is home</h1>
+           <Banner></Banner>
+           <Info></Info>
+            <Services></Services>
+            <ServicesBanner></ServicesBanner>
+            <AppointmentBanner></AppointmentBanner>
         </div>
     );
 };
